@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: amazon-deployment
+  labels:
+    app: amazon
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: amazon
+  template:
+    metadata:
+      labels:
+        app: amazon
+    spec:
+      containers:
+      - name: amazon-box
+        image: devopswithdayanand/amzon-web:v02
+        ports:
+        - containerPort: 80

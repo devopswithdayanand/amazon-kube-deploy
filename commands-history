@@ -1,0 +1,69 @@
+     git clone https://github.com/dayanandgowda222/Amazon-Clone.git
+   4 clear
+   5 clear
+   6 docker built -t amazon-web .
+   7 docker builb -t amazon-web .
+   8 docker build -t amazon-web .
+   9 docker ps
+  10 docker ps
+  11 clear
+  12 docker built -t amazon-web .
+  13 docker build -t amazon-web .
+  14 docker ps
+  15 docker images
+  16 clear
+  17 docker run -d -p 8001:80 amazon-web
+  18 docker tag amazon-web devopswithdayanand/amzon-web:v0.1
+  19 docker image
+  20 docker images
+  21 clear
+  22 docker push devopswithdayanand/amzon-web:v0.1
+  23 clear
+  24 docker ps
+  25 docker stop bf626af6282d
+  26 clear
+  27 minikube start
+  28 clear
+  29 minikube status
+  30 clear
+  31 minikube delete
+  32 clear
+  33 minikube start
+  34 clear
+  35 minikube status
+  36 kubectl get po
+  37 clear
+  38 kubectl apply -f .\amazon-dep.yaml
+  39 kubectl get deploy
+  40 kubectl get deploy
+  41 kubectl get deploy
+  42 kubectl get deploy
+  43 kubectl get deploy
+  44 kubectl get rs
+  45 kubectl get pos
+  46 kubectl get po
+  47 kubectl apply -f .\amzon-service.yaml
+  48 kubbectl get svc
+  49 kubectl get svc
+  50 clear
+  51 minikube service amazon-service
+
+
+
+  
+
+  kubectl apply -f .\amazon-dep.yaml
+   3 kubectl apply -f .\amzon-service.yaml
+   4 clear
+   5 docker build -t devopswithdayanand/amzon-web:v02 .
+   6 docker images
+   7 docker push devopswithdayanand/amzon-web:v02
+   8 kubectl apply -f amazon-dep.yaml
+   9 clear
+  10 kubectl get history deploy amazon-deployment
+  11 kubectl rollout history deploy amazon-deployment
+  12 kubectl rollout undo deploy amazon-deployment
+  13 kubectl rollout deploy amazon-deployment
+  14 kubectl rollout -h
+  15 clear
+  16 kubectl apply -f .\amazon-dep.yaml
