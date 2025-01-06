@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: amazon-box
-        image: devopswithdayanand/amzon-web:v02
+        image: devopswithdayanand/amzon-web:v0.1
         ports:
         - containerPort: 80
